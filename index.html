@@ -5,161 +5,483 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
    <title>Loja</title>
+
 </head>
+
 <body>
 
+    <div id="mouse">🕷️</div>
+
+    <header>
+
+        <h1>𝙻𝚘𝚓𝚊 𝚖𝚊𝚜𝚜𝚊</h1>
+
+        <nav class="menu">
+
+            <ul>
+
+                <li>
+                    <a href="#eletronicos">💻 Produtos</a>
+                </li>
+
+                <li>
+                    <a href="#contato">💬 Fale conosco</a>
+                </li>
+
+                <li>
+                    <button id="abrirCarrinho">
+                        🛒 Carrinho
+                        <span id="contadorCarrinho">0</span>
+                    </button>
+                </li>
+
+                <li>
+                    <a href="#eletronicos" class="botao-pedir">
+                        Peça já
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.tiktok.com/@kayra.auryani" target="_blank">
+                        TikTok
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://br.pinterest.com/kayra7auryani/" target="_blank">
+                        Pinterest
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
 
 
+  
+    <div id="boasVindas" class="modal">
 
-   <header>
-       <h1>𝙻𝚘𝚓𝚊 𝚖𝚊𝚜𝚜𝚊</h1>
-      <nav class="menu">
-   <ul>
-       <li><a href="#eletronicos">💻 Eletrônicos</a></li>
-       <li><a href="#carros">🚗 Carros</a></li>
-       <li><a href="https://www.tiktok.com/@kayra.auryani" target="_blank">TikTok</a></li>
-       <li><a href="https://br.pinterest.com/kayra7auryani/" target="_blank">Pinterest</a></li>
-   </ul>
-</nav>
-   </header>
+        <div class="caixa-modal">
+
+            <h2>👋 Bem-vindo(a)!</h2>
+
+            <p>
+                Seja muito bem-vindo(a) à Loja da Kayra
+                <br><br>
+                Confira meus produtos e encontre
+                o que você procura.
+            </p>
+            <p>Clique aqui embaixo para entrar</p>
+
+            <button id="entrarLoja">
+                Entrar na loja
+            </button>
+
+        </div>
+
+    </div>
 
 
+    <main>
 
 
-   <main>
-     
-      <section class="produtos-container" id="eletronicos">
- 
-         
        
-           <div class="texto-introducao">
-               <h1>ℬℯ𝓂-𝓋𝒾𝓃𝒹ℴ 𝒶̀ 𝓂𝒾𝓃𝒽𝒶 𝓁ℴ𝒿𝒶!</h1>
-              <h3> <p>𝖠𝗊𝗎𝗂 𝗏𝗈𝖼𝖾̂ 𝖾𝗇𝖼𝗈𝗇𝗍𝗋𝖺 𝗈𝗌 𝗆𝖾𝗅𝗁𝗈𝗋𝖾𝗌 𝖾𝗅𝖾𝗍𝗋𝗈̂𝗇𝗂𝖼𝗈𝗌 𝖾 𝗏𝖾𝗂́𝖼𝗎𝗅𝗈𝗌, 𝗋𝖾𝗎𝗇𝗂𝖽𝗈𝗌 𝖾𝗆 𝗎𝗆 𝗌𝗈́ 𝗅𝗎𝗀𝖺𝗋. 𝖳𝗋𝖺𝖻𝖺𝗅𝗁𝖺𝗆𝗈𝗌 𝖼𝗈𝗆 𝗉𝗋𝗈𝖽𝗎𝗍𝗈𝗌 𝖽𝖾 𝗊𝗎𝖺𝗅𝗂𝖽𝖺𝖽𝖾,
-                   𝗉𝗋𝖾𝖼̧𝗈𝗌 𝖼𝗈𝗆𝗉𝖾𝗍𝗂𝗍𝗂𝗏𝗈𝗌 𝖾 𝗎𝗆 𝖺𝗍𝖾𝗇𝖽𝗂𝗆𝖾𝗇𝗍𝗈 𝖽𝖾𝖽𝗂𝖼𝖺𝖽𝗈 𝗉𝖺𝗋𝖺 𝖺𝗃𝗎𝖽𝖺𝗋 𝗏𝗈𝖼𝖾̂ 𝖺 𝖿𝖺𝗓𝖾𝗋 𝖺 𝗆𝖾𝗅𝗁𝗈𝗋 𝖾𝗌𝖼𝗈𝗅𝗁𝖺. 𝗆𝗂𝗌𝗌𝖺̃𝗈 𝖾́ 𝗈𝖿𝖾𝗋𝖾𝖼𝖾𝗋 𝗍𝖾𝖼𝗇𝗈𝗅𝗈𝗀𝗂𝖺, 𝗂𝗇𝗈𝗏𝖺𝖼̧𝖺̃𝗈 𝖾 𝖼𝗈𝗇𝖿𝗂𝖺𝗇𝖼̧𝖺, 𝗌𝖾𝗃𝖺 𝗇𝖺 𝖼𝗈𝗆𝗉𝗋𝖺 𝖽𝖾 𝗎𝗆 𝗌𝗆𝖺𝗋𝗍𝗉𝗁𝗈𝗇𝖾, 𝗇𝗈𝗍𝖾𝖻𝗈𝗈𝗄, 𝖺𝖼𝖾𝗌𝗌𝗈́𝗋𝗂𝗈𝗌 𝗈𝗎 𝖽𝗈 𝖼𝖺𝗋𝗋𝗈 𝗂𝖽𝖾𝖺𝗅 𝗉𝖺𝗋𝖺 𝗈 𝗌𝖾𝗎 𝖽𝗂𝖺 𝖺 𝖽𝗂𝖺. 𝖡𝗎𝗌𝖼𝖺𝗆𝗈𝗌 𝗌𝖾𝗆𝗉𝗋𝖾 𝗉𝗋𝗈𝗉𝗈𝗋𝖼𝗂𝗈𝗇𝖺𝗋 𝗎𝗆𝖺 𝖾𝗑𝗉𝖾𝗋𝗂𝖾̂𝗇𝖼𝗂𝖺 𝖽𝖾 𝖼𝗈𝗆𝗉𝗋𝖺 𝗌𝖾𝗀𝗎𝗋𝖺, 𝗉𝗋𝖺́𝗍𝗂𝖼𝖺 𝖾 𝗌𝖺𝗍𝗂𝗌𝖿𝖺𝗍𝗈́𝗋𝗂𝖺.
-                   𝖤𝗑𝗉𝗅𝗈𝗋𝖾 𝗇𝗈𝗌𝗌𝗈𝗌 𝗉𝗋𝗈𝖽𝗎𝗍𝗈𝗌 𝖾 𝖽𝖾𝗌𝖼𝗎𝖻𝗋𝖺 𝗈𝖿𝖾𝗋𝗍𝖺𝗌 𝗂𝗇𝖼𝗋𝗂́𝗏𝖾𝗂𝗌.
-                   𝖤𝗌𝗍𝖺𝗆𝗈𝗌 𝗉𝗋𝗈𝗇𝗍𝗈𝗌 𝗉𝖺𝗋𝖺 𝖺𝗃𝗎𝖽𝖺𝗋 𝗏𝗈𝖼𝖾̂ 𝖺 𝖾𝗇𝖼𝗈𝗇𝗍𝗋𝖺𝗋 𝖾𝗑𝖺𝗍𝖺𝗆𝖾𝗇𝗍𝖾 𝗈 𝗊𝗎𝖾 𝗉𝗋𝗈𝖼𝗎𝗋𝖺!</p></h3>
+
+        <section class="produtos-container" id="eletronicos">
+
+            <div class="texto-introducao">
+
+                <h1>
+                    ℬℯ𝓂-𝓋𝒾𝓃𝒹ℴ 𝒶̀ 𝓂𝒾𝓃𝒽𝒶 𝓁ℴ𝒿𝒶!
+                </h1>
+
+                <h3>
+
+                    <p>
+                       𝖠𝗊𝗎𝗂 𝗏𝗈𝖼𝖾̂ 𝖾𝗇𝖼𝗈𝗇𝗍𝗋𝖺 𝗈𝗌 𝗆𝖾𝗅𝗁𝗈𝗋𝖾𝗌 𝖾𝗅𝖾𝗍𝗋𝗈̂𝗇𝗂𝖼𝗈𝗌 𝖾 𝗏𝖾𝗂́𝖼𝗎𝗅𝗈𝗌, 𝗋𝖾𝗎𝗇𝗂𝖽𝗈𝗌 𝖾𝗆 𝗎𝗆 𝗌𝗈́ 𝗅𝗎𝗀𝖺𝗋. 
+                    </p>
+
+                    <p>𝖳𝗋𝖺𝖻𝖺𝗅𝗁𝖺𝗆𝗈𝗌 𝖼𝗈𝗆 𝗉𝗋𝗈𝖽𝗎𝗍𝗈𝗌 𝖽𝖾 𝗊𝗎𝖺𝗅𝗂𝖽𝖺𝖽𝖾, 𝗉𝗋𝖾𝖼̧𝗈𝗌
+                         𝖼𝗈𝗆𝗉𝖾𝗍𝗂𝗍𝗂𝗏𝗈𝗌 𝖾 𝗎𝗆 𝖺𝗍𝖾𝗇𝖽𝗂𝗆𝖾𝗇𝗍𝗈 𝖽𝖾𝖽𝗂𝖼𝖺𝖽𝗈 𝗉𝖺𝗋𝖺 𝖺𝗃𝗎𝖽𝖺𝗋 𝗏𝗈𝖼𝖾̂ 
+                         𝖺 𝖿𝖺𝗓𝖾𝗋 𝖺 𝗆𝖾𝗅𝗁𝗈𝗋 𝖾𝗌𝖼𝗈𝗅𝗁𝖺. M𝗂𝗌𝗌𝖺̃𝗈 𝖾́ 𝗈𝖿𝖾𝗋𝖾𝖼𝖾𝗋 𝗍𝖾𝖼𝗇𝗈𝗅𝗈𝗀𝗂𝖺, 𝗂𝗇𝗈𝗏𝖺𝖼̧𝖺̃𝗈 𝖾 𝖼𝗈𝗇𝖿𝗂𝖺𝗇𝖼̧𝖺, 𝗌𝖾𝗃𝖺 𝗇𝖺 𝖼𝗈𝗆𝗉𝗋𝖺
+                          𝖽𝖾 𝗎𝗆 𝗌𝗆𝖺𝗋𝗍𝗉𝗁𝗈𝗇𝖾,
+                         𝗇𝗈𝗍𝖾𝖻𝗈𝗈𝗄, 𝖺𝖼𝖾𝗌𝗌𝗈́𝗋𝗂𝗈𝗌 𝗈𝗎 𝖽𝗈 𝖼𝖺𝗋𝗋𝗈 𝗂𝖽𝖾𝖺𝗅 𝗉𝖺𝗋𝖺 𝗈 𝗌𝖾𝗎 𝖽𝗂𝖺 𝖺 𝖽𝗂𝖺. 
+                    </p>
+
+                    <p>
+                      𝖡𝗎𝗌𝖼𝖺𝗆𝗈𝗌 𝗌𝖾𝗆𝗉𝗋𝖾 𝗉𝗋𝗈𝗉𝗈𝗋𝖼𝗂𝗈𝗇𝖺𝗋 𝗎𝗆𝖺 𝖾𝗑𝗉𝖾𝗋𝗂𝖾̂𝗇𝖼𝗂𝖺 𝖽𝖾 𝖼𝗈𝗆𝗉𝗋𝖺 𝗌𝖾𝗀𝗎𝗋𝖺, 𝗉𝗋𝖺́𝗍𝗂𝖼𝖺 𝖾 𝗌𝖺𝗍𝗂𝗌𝖿𝖺𝗍𝗈́𝗋𝗂𝖺.
+                      𝖤𝗑𝗉𝗅𝗈𝗋𝖾 𝗇𝗈𝗌𝗌𝗈𝗌 𝗉𝗋𝗈𝖽𝗎𝗍𝗈𝗌 𝖾 𝖽𝖾𝗌𝖼𝗎𝖻𝗋𝖺 𝗈𝖿𝖾𝗋𝗍𝖺𝗌 𝗂𝗇𝖼𝗋𝗂́𝗏𝖾𝗂𝗌.
+                      𝖤𝗌𝗍𝖺𝗆𝗈𝗌 𝗉𝗋𝗈𝗇𝗍𝗈𝗌 𝗉𝖺𝗋𝖺 𝖺𝗃𝗎𝖽𝖺𝗋 𝗏𝗈𝖼𝖾̂ 𝖺 𝖾𝗇𝖼𝗈𝗇𝗍𝗋𝖺𝗋 𝖾𝗑𝖺𝗍𝖺𝗆𝖾𝗇𝗍𝖾 𝗈 𝗊𝗎𝖾 𝗉𝗋𝗈𝖼𝗎𝗋𝖺!
+                    </p>
+
+                    <p>
+                        𝖤𝗑𝗉𝗅𝗈𝗋𝖾 𝗇𝗈𝗌𝗌𝗈𝗌 𝗉𝗋𝗈𝖽𝗎𝗍𝗈𝗌 𝖾
+                        𝖽𝖾𝗌𝖼𝗎𝖻𝗋𝖺 𝗈𝖿𝖾𝗋𝗍𝖺𝗌 𝗂𝗇𝖼𝗋𝗂́𝗏𝖾𝗂𝗌!
+                    </p>
+
+                </h3>
+
+            </div>
+
+
+            <h2 class="titulo-secao">
+                ⇣𝑪𝒐𝒏𝒇𝒊𝒓𝒂 𝒐𝒔 𝒑𝒓𝒆𝒄̧𝒐𝒔 𝒂𝒃𝒂𝒊𝒙𝒐⇣
+            </h2>
 
 
 
-
-               </div>
-           <h2 class="titulo-secao">⇣𝑪𝒐𝒏𝒇𝒊𝒓𝒂 𝒐𝒔 𝒑𝒓𝒆𝒄̧𝒐𝒔 𝒂𝒃𝒂𝒊𝒙𝒐⇣</h2>
-           <div class="lista-produtos">
-             
-               <div class="produto">
-                   <h3>Mouse Gamer</h3>
-                   <img src="https://http2.mlstatic.com/D_NQ_NP_980882-MLU72675476484_112023-O.webp" alt="Mouse Gamer">
-                   <p class="preco">R$ 95,00</p>
-                   <button class="btn-comprar" onclick="mostrarImagem('https://i.pinimg.com/originals/50/c7/03/50c7037b50fdb9b7741a6b0c5319c6e3.gif')">Comprar</button>
-               </div>
+            <div class="lista-produtos">
 
 
+                <div class="produto">
 
+                    <h3>Mouse Gamer</h3>
 
-               <div class="produto">
-                   <h3>Teclado Mecânico</h3>
-                   <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2j585m4qu3ab2" alt="Teclado Mecânico">
-                   <p class="preco">R$ 198,00</p>
-                   <button class="btn-comprar" onclick="mostrarImagem('https://i.pinimg.com/originals/f8/15/2b/f8152b71b1235fd48f7072d36366fc1f.gif')">Comprar</button>
-               </div>
+                    <img
+                        src="https://http2.mlstatic.com/D_NQ_NP_980882-MLU72675476484_112023-O.webp"
+                        alt="Mouse Gamer"
+                    >
 
+                    <p class="preco">
+                        R$ 95,00 
+                    </p>
 
+                    <button
+                        class="btn-comprar"
+                        data-nome="Mouse Gamer"
+                        data-preco="95"
+                        onclick="mostrarImagem('https://i.pinimg.com/originals/50/c7/03/50c7037b50fdb9b7741a6b0c5319c6e3.gif')"
+                    >
+                        Comprar
+                    </button>
 
-
-               <div class="produto">
-                   <h3>Headset Gamer</h3>
-                   <img src="https://http2.mlstatic.com/D_NQ_NP_807466-MLB105653982146_012026-O-spiderman-suporte-headset-fone-de-ouvido-homem-aranha.webp" alt="Headset Gamer">
-                   <p class="preco">R$ 155,00</p>
-                   <button class="btn-comprar" onclick="mostrarImagem('https://i.pinimg.com/originals/41/2b/60/412b60a4ddd7f5b27adc32b05ff35e3b.gif')">Comprar</button>
-               </div>
-               <div class="produto">
-                    <h3>Mousepad</h3> 
-                    <img src="https://cybeart.in/cdn/shop/products/MP-RA45-HP04_8.jpg?v=1702358761&width=1090" alt="Mousepad">
-                   <p class="preco">R$ 39,00</p>
-                    <button class="btn-comprar" onclick="mostrarImagem('https://i.pinimg.com/originals/27/f9/a3/27f9a37eb3dc9b7b7e8e648bb987816b.gif')">Comprar</button>
-               </div>
-           </div>
-         </section>
-
-
-
-
-   <section id="carros">
-       <h2 class="titulo-secao">🚗 Carros</h2>
-
-
-
-
-       <div class="lista-produtos">
-
-
-
-
-           <div class="produto">
-               <h3>BMW M4</h3>
-                    <img src="https://i.pinimg.com/736x/5c/3a/c8/5c3ac83b5747b3cfee953c04d07fabb8.jpg" alt="BMW M4">
-                   <p class="preco">R$ 150.250,00</p>
-                    <button class="btn-comprar" onclick="mostrarImagem('https://i.pinimg.com/originals/e0/9b/80/e09b8085a6bb79aa6c7de4d9cd414e64.gif')">Comprar</button>
-              </div>
-
-
-
-
-<div class="produto">
-                    <h3>BMW 320i </h3>
-                    <img src="https://i.pinimg.com/736x/97/fe/81/97fe8154d310f3928850b3f861f7e40f.jpg" alt="BMW 320i ">
-                   <p class="preco">R$ 250.250,00</p>
-                    <button class="btn-comprar" onclick="mostrarImagem('https://i.pinimg.com/originals/c8/96/09/c89609c68017f2226f79f82cd0764063.gif')">Comprar</button>
                 </div>
-             
-<div class="produto">
-                    <h3>Volkswagen</h3>
-                    <img src="https://i.pinimg.com/736x/22/c1/ce/22c1cec0cfd00ed1a2c86f398d79a759.jpg" alt="Volkswagen">
-                   <p class="preco">R$ 5.500,00</p>
-                    <button class="btn-comprar" onclick="mostrarImagem('https://i.pinimg.com/originals/c8/96/09/c89609c68017f2226f79f82cd0764063.gif')">Comprar</button>
-               </div>
-         
-<div class="produto">
-                    <h3>Civic g 10</h3>
-                    <img src="https://i.pinimg.com/1200x/c0/29/35/c029352811bf22634ae8ab24e5074185.jpg" alt="Civic g 10">
-                   <p class="preco">R$ 90.000</p>
-                    <button class="btn-comprar" onclick="mostrarImagem('https://i.pinimg.com/originals/0e/7f/4f/0e7f4f54ff906081d2e497de96636475.gif')">Comprar</button>
-               </div>
+
+
+                <div class="produto">
+
+                    <h3>Teclado Mecânico</h3>
+
+                    <img
+                        src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2j585m4qu3ab2"
+                        alt="Teclado Mecânico"
+                    >
+
+                    <p class="preco">
+                        R$ 198,00
+                    </p>
+
+                    <button
+                        class="btn-comprar"
+                        data-nome="Teclado Mecânico"
+                        data-preco="198"
+                        onclick="mostrarImagem('https://i.pinimg.com/originals/f8/15/2b/f8152b71b1235fd48f7072d36366fc1f.gif')"
+                    >
+                        Comprar
+                    </button>
+
+                </div>
+
+
+                <div class="produto">
+
+                    <h3>Headset Gamer</h3>
+
+                    <img
+                        src="https://http2.mlstatic.com/D_NQ_NP_807466-MLB105653982146_012026-O-spiderman-suporte-headset-fone-de-ouvido-homem-aranha.webp"
+                        alt="Headset Gamer"
+                    >
+
+                    <p class="preco">
+                        R$ 155,00
+                    </p>
+
+                    <button
+                        class="btn-comprar"
+                        data-nome="Headset Gamer"
+                        data-preco="155"
+                        onclick="mostrarImagem('https://i.pinimg.com/originals/41/2b/60/412b60a4ddd7f5b27adc32b05ff35e3b.gif')"
+                    >
+                        Comprar
+                    </button>
+
+                </div>
+
+
+                <div class="produto">
+
+                    <h3>Mousepad</h3>
+
+                    <img
+                        src="https://cybeart.in/cdn/shop/products/MP-RA45-HP04_8.jpg?v=1702358761&width=1090"
+                        alt="Mousepad"
+                    >
+
+                    <p class="preco">
+                        R$ 39,00
+                    </p>
+
+                    <button
+                        class="btn-comprar"
+                        data-nome="Mousepad"
+                        data-preco="39"
+                        onclick="mostrarImagem('https://i.pinimg.com/originals/27/f9/a3/27f9a37eb3dc9b7b7e8e648bb987816b.gif')"
+                    >
+                        Comprar
+                    </button>
+
+                </div>
+
+            </div>
+
         </section>
-   </main>
-   <div id="janela-imagem" class="modal-imagem" onclick="fecharImagem()">
-       <div class="conteudo-modal">
-           <img id="imagem-sucesso" src="" alt="Produto Adicionado">
-           <p>Item adicionado com sucesso!</p>
-           <button class="btn-fechar">Fechar</button>
-       </div>
-   </div>
-</sectio>
-</main>
-   <footer>
-       <p>Desenvolvido por mim</p>
-   </footer>
-   <input type="text" id="nome">
-   <button onclick="mostrarNome()">Enviar</button>
+
+
+       
+
+        <section id="carros">
+
+            <h2 class="titulo-secao">
+                🚗 Carros
+            </h2>
+
+
+            <div class="lista-produtos">
+
+            <div>
+                <div class="produto">
+
+                    <h3>BMW M4</h3>
+
+                    <img
+                        src="https://i.pinimg.com/736x/5c/3a/c8/5c3ac83b5747b3cfee953c04d07fabb8.jpg"
+                        alt="BMW M4"
+                    >
+
+                    <p class="preco">
+                        R$ 150.250,00
+                    </p>
+
+                    <button
+                        class="btn-comprar"
+                        data-nome="BMW M4"
+                        data-preco="150250"
+                        onclick="mostrarImagem('https://i.pinimg.com/originals/e0/9b/80/e09b8085a6bb79aa6c7de4d9cd414e64.gif')"
+                    >
+                        Comprar
+                    </button>
+
+                </div>
+
+                <div class="produto">
+
+                    <h3>BMW 320i</h3>
+
+                    <img
+                        src="https://i.pinimg.com/736x/97/fe/81/97fe8154d310f3928850b3f861f7e40f.jpg"
+                        alt="BMW 320i"
+                    >
+
+                    <p class="preco">
+                        R$ 250.250,00
+                    </p>
+
+                    <button
+                        class="btn-comprar"
+                        data-nome="BMW 320i"
+                        data-preco="250250"
+                        onclick="mostrarImagem('https://i.pinimg.com/originals/c8/96/09/c89609c68017f2226f79f82cd0764063.gif')"
+                    >
+                        Comprar
+                    </button>
+
+                </div>
+
+
+                <div class="produto">
+
+                    <h3>Volkswagen</h3>
+
+                    <img
+                        src="https://i.pinimg.com/736x/22/c1/ce/22c1cec0cfd00ed1a2c86f398d79a759.jpg"
+                        alt="Volkswagen"
+                    >
+
+                    <p class="preco">
+                        R$ 5.500,00
+                    </p>
+
+                    <button
+                        class="btn-comprar"
+                        data-nome="Volkswagen"
+                        data-preco="5500"
+                        onclick="mostrarImagem('https://i.pinimg.com/originals/f2/bd/0e/f2bd0e8f2a9d5e49f117a49840a59c1d.gif')"
+                    >
+                        Comprar
+                    </button>
+
+                </div>
+
+
+                <div class="produto">
+
+                    <h3>Civic G10</h3>
+
+                    <img
+                        src="https://i.pinimg.com/1200x/c0/29/35/c029352811bf22634ae8ab24e5074185.jpg"
+                        alt="Civic G10"
+                    >
+
+                    <p class="preco">
+                        R$ 90.000,00
+                    </p>
+
+                    <button
+                        class="btn-comprar"
+                        data-nome="Civic G10"
+                        data-preco="90000"
+                        onclick="mostrarImagem('https://i.pinimg.com/originals/44/4d/09/444d0975f988de7a7c163a52a77c0807.gif')"
+                    >
+                        Comprar
+                    </button>
+        
+                </div>
+
+
+            </div>
+
+        </section>
 
 
 
+        <section id="contato" class="contato">
 
- 
-   <script>
-   function mostrarImagem(caminhoDaImagem) {
-       document.getElementById('imagem-sucesso').src = caminhoDaImagem;
-       document.getElementById('janela-imagem').style.display = 'flex';
-   }
+            <h2>
+                💬 Fale conosco
+            </h2>
+
+            <p>
+                Tem alguma dúvida? Entre em contato conosco!
+            </p>
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome"
+            >
+
+            <button onclick="mostrarNome()">
+                Enviar
+            </button>
+
+            <p id="mensagemNome"></p>
+
+        </section>
 
 
+    </main>
 
 
-   function fecharImagem() {
-       document.getElementById('janela-imagem').style.display = 'none';
-   }
-   </script>
-<script src="script.js"></script>
+    
+
+    <div
+        id="janela-imagem"
+        class="modal-imagem"
+    >
+
+        <div class="conteudo-modal">
+
+            <img
+                id="imagem-sucesso"
+                src=""
+                alt="Produto adicionado"
+            >
+
+            <h2>
+                ✅ Item adicionado com sucesso!
+            </h2>
+
+            <p id="nomeProdutoModal"></p>
+
+            <button
+                class="btn-fechar"
+                onclick="fecharImagem()"
+            >
+                Fechar
+            </button>
+
+        </div>
+
+    </div>
+
+
+  
+    <div
+        id="fundoCarrinho"
+        onclick="fecharCarrinho()"
+    ></div>
+
+
+    <aside id="carrinho">
+
+        <div class="topo-carrinho">
+
+            <h2>
+                🛒 Carrinho
+            </h2>
+
+            <button
+                onclick="fecharCarrinho()"
+                class="fechar-carrinho"
+            >
+                x
+            </button>
+
+        </div>
+
+
+        <div id="listaCarrinho">
+
+            <p>
+                Seu carrinho está vazio.
+            </p>
+
+        </div>
+
+
+        <div class="total">
+
+            <strong>
+                Total:
+            </strong>
+
+            <span id="totalCarrinho">
+                R$ 0,00
+            </span>
+
+        </div>
+
+
+        <button class="btn-finalizar">
+            Finalizar pedido
+        </button>
+
+    </aside>
+
+
+    <footer>
+
+        <p>
+            Desenvolvido por mim ❤️
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
-</html>
 
+</html>
